@@ -1,11 +1,14 @@
 import React from 'react';
-import { Card, CardHeader, CardContent, Typography, Divider} from '@material-ui/core'
+import { Card, CardHeader, CardContent, Grid, Typography, Divider} from '@material-ui/core'
+
 
 const Main = () => {
 
   return (
     <div>
-      The main component
+      <Card className={classes.root}> 
+        <CardHeader title="Expense Tracker" />
+      </Card>
     </div>
   )
 }
